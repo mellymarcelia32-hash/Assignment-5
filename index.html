@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden Retriever</title>
+
+    <link rel="stylesheet" href="/src/styles/main.css" />
+
+    <script>
+      if (window.location.hostname === "your-production-url.vercel.app") {
+        const script = document.createElement("script");
+        script.src =
+          "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX";
+        script.async = true;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-XXXXXXX");
+      }
+    </script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__title">Golden Retriever</h1>
+    </header>
+
+    <main class="main">
+      <section class="image-card">
+        <img
+          class="image-card__image"
+          src="https://images.unsplash.com/photo-1558788353-f76d92427f16"
+          alt="Golden Retriever sitting"
+        />
+        <p class="image-card__caption">
+          A friendly Golden Retriever enjoying the day.
+        </p>
+      </section>
+    </main>
+
+    <div class="cookie-banner" id="cookieBanner">
+      <p class="cookie-banner__text">
+        This website uses cookies for analytics.
+        <a href="/policy.html">Learn more</a>
+      </p>
+      <button class="cookie-banner__button" id="acceptCookies">
+        Accept
+      </button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
+
+
+

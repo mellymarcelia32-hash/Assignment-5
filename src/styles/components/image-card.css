@@ -1,0 +1,13 @@
+.image-card {
+  max-width: 400px;
+  text-align: center;
+}
+
+.image-card__image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image-card__caption {
+  margin-top: 0.5rem;
+}
